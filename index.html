@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover what makes autism great: deep focus, pattern recognition, honesty, creative thinking, and the power of neurodiversity.">
+  <title>What Makes Autism Great | Celebrating Neurodiversity</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Skip Link for Accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="container header-container">
+      <div class="logo">
+        <span class="infinity-badge" aria-hidden="true">
+          <svg class="infinity-svg" viewBox="0 0 40 20" width="36" height="18" fill="none" stroke-width="3.5" stroke-linecap="round">
+            <defs>
+              <linearGradient id="infinityGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#0284c7" />
+                <stop offset="50%" stop-color="#8b5cf6" />
+                <stop offset="100%" stop-color="#f59e0b" />
+              </linearGradient>
+            </defs>
+            <path d="M10 10c-3-5-8-5-8 0s5 5 8 0l10-10c3-5 8-5 8 0s-5 5-8 0L10 10z" stroke="url(#infinityGrad)"/>
+          </svg>
+        </span>
+        <span class="logo-text">Different Minds, <strong>Infinite Value</strong></span>
+      </div>
+
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#strengths">Superpowers</a></li>
+          <li><a href="#explorer">Strengths Explorer</a></li>
+          <li><a href="#voices">Voices</a></li>
+          <li><a href="#reflections">Appreciation Wall</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="sensory-toggle" class="btn btn-secondary btn-sm" aria-pressed="false" title="Toggle Calm / Reduced Stimulation Mode">
+          <svg class="icon-inline" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/>
+            <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>
+          </svg>
+          <span class="toggle-text">Calm Mode</span>
+        </button>
+        <button id="theme-toggle" class="btn btn-icon-only" aria-label="Toggle Dark/Light theme" title="Toggle Dark/Light Mode">
+          <span id="theme-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/>
+            </svg>
+          </span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          <span>A Celebration of Neurodiversity</span>
+        </div>
+        <h1 class="hero-title">
+          What Makes <span class="highlight-gradient">Autism Great</span>
+        </h1>
+        <p class="hero-subtitle">
+          Autism is not a deficit to cure; it is a profound and necessary variation in human thought. 
+          From razor-sharp pattern recognition to intense authenticity and hyperfocused creativity, 
+          the autistic mind shapes and enriches our world.
+        </p>
+        <div class="hero-cta-group">
+          <a href="#strengths" class="btn btn-primary">
+            <span>Explore The Strengths</span>
+            <span class="btn-arrow" aria-hidden="true">&darr;</span>
+          </a>
+          <button id="random-insight-btn" class="btn btn-glass">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3L12 3z"/>
+            </svg>
+            <span>Get Instant Inspiration</span>
+          </button>
+        </div>
+
+        <!-- Hero Stats / Highlights Bar -->
+        <div class="hero-stats">
+          <div class="stat-card">
+            <div class="stat-icon-wrapper color-amber">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+              </svg>
+            </div>
+            <div class="stat-value">Hyperfocus</div>
+            <div class="stat-label">Extraordinary depth in special interests</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon-wrapper color-teal">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="3" width="7" height="7"/>
+                <rect x="14" y="3" width="7" height="7"/>
+                <rect x="14" y="14" width="7" height="7"/>
+                <rect x="3" y="14" width="7" height="7"/>
+              </svg>
+            </div>
+            <div class="stat-value">Pattern Master</div>
+            <div class="stat-label">Spotting insights others easily miss</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon-wrapper color-indigo">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                <path d="m9 12 2 2 4-4"/>
+              </svg>
+            </div>
+            <div class="stat-value">100% Authentic</div>
+            <div class="stat-label">Direct, honest &amp; deeply principled</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon-wrapper color-rose">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/>
+                <path d="M9 18h6"/>
+                <path d="M10 22h4"/>
+              </svg>
+            </div>
+            <div class="stat-value">Original Thought</div>
+            <div class="stat-label">Free from conventional social conformity</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Spotlight Banner / Random Insight Modal/Alert -->
+    <div id="insight-banner" class="insight-banner hidden" role="region" aria-live="polite">
+      <div class="container insight-content">
+        <span class="insight-badge">Spark of Insight</span>
+        <p id="insight-text">"Autistic people don't think outside the box—they don't see the box to begin with."</p>
+        <button id="close-insight-btn" class="close-btn" aria-label="Dismiss insight">&times;</button>
+      </div>
+    </div>
+
+    <!-- Core Strengths Showcase -->
+    <section id="strengths" class="section strengths-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-kicker">Core Brilliance</span>
+          <h2 class="section-title">The Superpowers of the Autistic Mind</h2>
+          <p class="section-description">
+            Neurodivergent ways of processing information provide distinct cognitive advantages that drive science, art, technology, and genuine human connection.
+          </p>
+        </div>
+
+        <div class="strengths-grid">
+          <!-- Card 1 -->
+          <article class="strength-card">
+            <div class="card-icon-wrapper color-amber">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+              </svg>
+            </div>
+            <h3 class="card-title">Hyperfocus &amp; Deep Mastery</h3>
+            <p class="card-desc">
+              When an autistic individual delves into their passions (special interests), they can absorb encyclopedic knowledge, retain complex systems, and solve multi-layered problems with sustained dedication that neurotypical minds rarely match.
+            </p>
+            <div class="card-tag">Cognitive Power</div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="strength-card">
+            <div class="card-icon-wrapper color-teal">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"/>
+                <circle cx="12" cy="12" r="6"/>
+                <circle cx="12" cy="12" r="2"/>
+              </svg>
+            </div>
+            <h3 class="card-title">Precision &amp; Anomaly Detection</h3>
+            <p class="card-desc">
+              Autistic perception often processes details before the big picture. This provides an unmatched instinct for identifying anomalies, code bugs, subtle errors, and micro-patterns across vast sets of data.
+            </p>
+            <div class="card-tag">Analytical Edge</div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="strength-card">
+            <div class="card-icon-wrapper color-indigo">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                <path d="m9 12 2 2 4-4"/>
+              </svg>
+            </div>
+            <h3 class="card-title">Radical Honesty &amp; Integrity</h3>
+            <p class="card-desc">
+              Free from the compulsion of social politics or deceptive posturing, autistic communication is characterized by clarity, truthfulness, strong moral consistency, and steadfast loyalty to principles.
+            </p>
+            <div class="card-tag">Character &amp; Truth</div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="strength-card">
+            <div class="card-icon-wrapper color-rose">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/>
+                <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/>
+                <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/>
+                <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/>
+              </svg>
+            </div>
+            <h3 class="card-title">First-Principles Innovation</h3>
+            <p class="card-desc">
+              Without the gravitational pull of "the way things have always been done," autistic thinkers question fundamental assumptions, invent novel methods, and envision groundbreaking breakthroughs.
+            </p>
+            <div class="card-tag">Creative Thinking</div>
+          </article>
+
+          <!-- Card 5 -->
+          <article class="strength-card">
+            <div class="card-icon-wrapper color-emerald">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M2 12h2"/>
+                <path d="M6 8v8"/>
+                <path d="M10 4v16"/>
+                <path d="M14 7v10"/>
+                <path d="M18 9v6"/>
+                <path d="M22 12h2"/>
+              </svg>
+            </div>
+            <h3 class="card-title">Sensory Richness &amp; Empathy</h3>
+            <p class="card-desc">
+              While sensory sensitivity is often framed as a challenge, it also allows for intense sensory joy, breathtaking appreciation of art, sound, and nature, and a fierce, compassionate empathy for animals and fairness.
+            </p>
+            <div class="card-tag">Sensory &amp; Soul</div>
+          </article>
+
+          <!-- Card 6 -->
+          <article class="strength-card">
+            <div class="card-icon-wrapper color-purple">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/>
+                <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/>
+                <path d="M7 21h10"/>
+                <path d="M12 3v18"/>
+                <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/>
+              </svg>
+            </div>
+            <h3 class="card-title">Passionate Advocacy &amp; Fairness</h3>
+            <p class="card-desc">
+              A profound sense of justice is a hallmark of autism. Autistic individuals are often unwavering advocates against systemic unfairness, championing ethical integrity when others remain silent.
+            </p>
+            <div class="card-tag">Values in Action</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Strengths Explorer -->
+    <section id="explorer" class="section explorer-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-kicker">Interactive Matrix</span>
+          <h2 class="section-title">Strengths in Daily Life &amp; Work</h2>
+          <p class="section-description">
+            Filter and click to discover how autistic strengths manifest across different domains.
+          </p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="filter-bar" role="tablist" aria-label="Strengths Filter">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Areas</button>
+          <button class="filter-btn" data-filter="work" role="tab" aria-selected="false">Career &amp; Innovation</button>
+          <button class="filter-btn" data-filter="thinking" role="tab" aria-selected="false">Thinking Style</button>
+          <button class="filter-btn" data-filter="relationships" role="tab" aria-selected="false">Relationships &amp; Values</button>
+          <button class="filter-btn" data-filter="creativity" role="tab" aria-selected="false">Creativity &amp; Arts</button>
+        </div>
+
+        <!-- Interactive Explorer Cards -->
+        <div class="explorer-grid" id="explorer-grid">
+          <!-- Dynamically managed & interactive cards -->
+        </div>
+
+        <!-- Detail Modal / Expanded View for Explorer -->
+        <div id="explorer-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+          <div class="modal-backdrop"></div>
+          <div class="modal-content">
+            <button class="modal-close" id="modal-close-btn" aria-label="Close dialog">&times;</button>
+            <div class="modal-header">
+              <span class="modal-badge" id="modal-category">Category</span>
+              <h3 id="modal-title" class="modal-heading">Title</h3>
+            </div>
+            <div class="modal-body" id="modal-body">
+              <!-- Injected via JS -->
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-secondary" id="modal-action-close">Got it</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Voices & Quotes Carousel -->
+    <section id="voices" class="section voices-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-kicker">Celebrated Minds</span>
+          <h2 class="section-title">Voices That Changed The World</h2>
+          <p class="section-description">
+            Throughout history and in modern society, autistic thinkers and neurodiversity pioneers remind us of the power of different minds.
+          </p>
+        </div>
+
+        <div class="quote-carousel" aria-roledescription="carousel">
+          <div class="carousel-card" id="carousel-card">
+            <div class="quote-mark">&ldquo;</div>
+            <blockquote class="quote-text" id="carousel-quote">
+              "The world needs all kinds of minds."
+            </blockquote>
+            <div class="quote-author-info">
+              <div class="author-avatar" id="carousel-avatar">TG</div>
+              <div>
+                <cite class="quote-author" id="carousel-author">Dr. Temple Grandin</cite>
+                <div class="quote-role" id="carousel-role">Professor of Animal Science, Author &amp; Autism Pioneer</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carousel Controls -->
+          <div class="carousel-controls">
+            <button id="prev-quote" class="carousel-btn" aria-label="Previous quote">&#8592;</button>
+            <div class="carousel-indicators" id="carousel-indicators" role="tablist">
+              <!-- Indicators generated in JS -->
+            </div>
+            <button id="next-quote" class="carousel-btn" aria-label="Next quote">&#8594;</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Myth vs. Reality Flip Section -->
+    <section class="section myths-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-kicker">Reframing Perspective</span>
+          <h2 class="section-title">Outdated Stereotype vs. Real Superpower</h2>
+          <p class="section-description">
+            Hover or tap each card to flip and reframe common misunderstandings into recognized strengths.
+          </p>
+        </div>
+
+        <div class="flip-cards-grid">
+          <!-- Flip Card 1 -->
+          <div class="flip-card" tabindex="0" role="button" aria-label="Flip card: Obsessive interests">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <span class="flip-badge myth">Outdated Framing</span>
+                <div class="flip-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="11" cy="11" r="8"/>
+                    <path d="m21 21-4.3-4.3"/>
+                    <path d="M11 8v4"/>
+                    <path d="M11 16h.01"/>
+                  </svg>
+                </div>
+                <h3>"Obsessive Interests"</h3>
+                <p>Labeling deep passions as strange fixation or one-track mind.</p>
+                <span class="flip-hint">Tap to reframe &#8635;</span>
+              </div>
+              <div class="flip-card-back">
+                <span class="flip-badge strength">Real Superpower</span>
+                <div class="flip-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                  </svg>
+                </div>
+                <h3>Encyclopedic Mastery</h3>
+                <p>Passionate dedication that yields domain mastery, groundbreaking expertise, and unstoppable perseverance.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Flip Card 2 -->
+          <div class="flip-card" tabindex="0" role="button" aria-label="Flip card: Too blunt">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <span class="flip-badge myth">Outdated Framing</span>
+                <div class="flip-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                    <line x1="9" y1="10" x2="15" y2="10"/>
+                  </svg>
+                </div>
+                <h3>"Too Blunt / Literal"</h3>
+                <p>Viewing direct expression as a lack of social tact.</p>
+                <span class="flip-hint">Tap to reframe &#8635;</span>
+              </div>
+              <div class="flip-card-back">
+                <span class="flip-badge strength">Real Superpower</span>
+                <div class="flip-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M6 3h12l4 6-10 13L2 9Z"/>
+                    <path d="M11 3 8 9l4 13 4-13-3-6"/>
+                    <path d="M2 9h20"/>
+                  </svg>
+                </div>
+                <h3>Refreshing Transparency</h3>
+                <p>Zero hidden agendas or manipulation. Honest, trustworthy, dependable communication you can always count on.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Flip Card 3 -->
+          <div class="flip-card" tabindex="0" role="button" aria-label="Flip card: Overly rigid">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <span class="flip-badge myth">Outdated Framing</span>
+                <div class="flip-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                    <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+                  </svg>
+                </div>
+                <h3>"Rigid Routines"</h3>
+                <p>Seeing need for structure as stubbornness or inflexibility.</p>
+                <span class="flip-hint">Tap to reframe &#8635;</span>
+              </div>
+              <div class="flip-card-back">
+                <span class="flip-badge strength">Real Superpower</span>
+                <div class="flip-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="3"/>
+                    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+                  </svg>
+                </div>
+                <h3>Systemic Excellence</h3>
+                <p>Exceptional reliability, process optimization, high standards, and ability to build sustainable, repeatable order.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Appreciation & Reflection Wall (Interactive Sticky Notes) -->
+    <section id="reflections" class="section reflections-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-kicker">Community Heart</span>
+          <h2 class="section-title">The Neurodiversity Appreciation Wall</h2>
+          <p class="section-description">
+            Share what you love or admire about an autistic colleague, loved one, or your own autistic self.
+          </p>
+        </div>
+
+        <!-- Add reflection form -->
+        <div class="reflection-form-card">
+          <form id="reflection-form">
+            <div class="form-row">
+              <div class="form-group flex-1">
+                <label for="author-name">Your Name or Alias</label>
+                <input type="text" id="author-name" placeholder="e.g., Alex (Proud Autistic) or Jordan" required maxlength="30">
+              </div>
+              <div class="form-group">
+                <label for="note-tag">Category</label>
+                <select id="note-tag">
+                  <option value="Ingenuity">Ingenuity</option>
+                  <option value="Honesty">Honesty</option>
+                  <option value="Focus">Focus</option>
+                  <option value="Creativity">Creativity</option>
+                  <option value="Neurodiversity">Neurodiversity</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="reflection-text">What strength do you want to celebrate?</label>
+              <textarea id="reflection-text" rows="3" placeholder="e.g., My autistic friend's incredible memory and how genuinely they listen without judgment..." required maxlength="250"></textarea>
+              <div class="char-count"><span id="char-counter">0</span> / 250 characters</div>
+            </div>
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">
+                <span>Post Appreciation Note</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="12" y1="17" x2="12" y2="22"/>
+                  <path d="M5 17h14v-1.76a2 2 0 0 0-1.11-1.79l-1.78-.9A2 2 0 0 1 15 10.76V6h1a2 2 0 0 0 0-4H8a2 2 0 0 0 0 4h1v4.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24Z"/>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Wall of notes -->
+        <div class="notes-grid" id="notes-grid" aria-live="polite">
+          <!-- Dynamic notes loaded via JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Action / Manifesto Banner -->
+    <section class="manifesto-section">
+      <div class="container manifesto-container">
+        <div class="manifesto-content">
+          <span class="manifesto-badge">Our Shared Future</span>
+          <h2>"Diversity in neurology is as essential for the human race as biodiversity is for nature."</h2>
+          <p>
+            When we create environments where autistic minds are understood, accommodated, and celebrated, humanity thrives. 
+            Embrace different ways of thinking, communicating, and experiencing our universe.
+          </p>
+          <div class="manifesto-actions">
+            <button id="copy-share-btn" class="btn btn-light">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+              </svg>
+              <span>Copy Page Link to Share</span>
+            </button>
+            <a href="#strengths" class="btn btn-outline-white">Review Strengths</a>
+          </div>
+          <p id="share-toast" class="share-toast hidden" role="status">Link copied to clipboard! Spread the appreciation.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <div class="logo">
+          <span class="infinity-badge" aria-hidden="true">
+            <svg class="infinity-svg" viewBox="0 0 40 20" width="28" height="14" fill="none" stroke-width="3" stroke-linecap="round">
+              <path d="M10 10c-3-5-8-5-8 0s5 5 8 0l10-10c3-5 8-5 8 0s-5 5-8 0L10 10z" stroke="currentColor"/>
+            </svg>
+          </span>
+          <span class="logo-text">What Makes Autism Great</span>
+        </div>
+        <p class="footer-tagline">
+          Built with celebration, respect, and neurodiversity-affirming principles.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#strengths">Core Superpowers</a></li>
+          <li><a href="#explorer">Explorer Matrix</a></li>
+          <li><a href="#voices">Historic Voices</a></li>
+          <li><a href="#reflections">Appreciation Wall</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-info">
+        <h4>Accessibility &amp; Inclusion</h4>
+        <p>
+          Designed for sensory comfort with high contrast, calm motion toggle, and screen reader semantic landmarks.
+        </p>
+        <p class="footer-credit">
+          &copy; <span id="current-year">2026</span> Neurodiversity Celebration.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
