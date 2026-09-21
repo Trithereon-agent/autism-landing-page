@@ -1,4 +1,4 @@
-# autism-landing-page
+# Autism Strengths Landing Page
 
 > **"What Makes Autism Great"** — An engaging, accessible, and neurodiversity-affirming landing page celebrating autistic strengths, cognitive diversity, and genuine human connection.
 
